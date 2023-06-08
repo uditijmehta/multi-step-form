@@ -43,7 +43,6 @@ The application should now be running at `http://localhost:3000`.
 
 - React.js: A JavaScript library for building user interfaces
 - Next.js: A React framework for production-grade applications, pre-rendering, and server-side rendering.
-- [Optional: Other tools or libraries used in the project]
 
 ## Deployment
 
