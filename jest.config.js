@@ -7,5 +7,5 @@ module.exports = {
   },
   moduleFileExtensions: ['js', 'json', 'jsx', 'node'],
   testEnvironment: 'jest-environment-jsdom',
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$',
+  testMatch: ['<rootDir>/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
 };
