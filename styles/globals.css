@@ -77,22 +77,33 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Monument Extended', cursive;
+  font-size: x-large;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: 'Monument Extended', cursive;
+
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/bg-image.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -105,3 +116,66 @@ a {
     color-scheme: dark;
   }
 }
+
+
+@font-face {
+  font-family: 'Monument Extended';
+  src: url('/fonts/MonumentExtended-Regular.otf') format('otf'),
+       url('/fonts/MonumentExtended-Ultrabold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* h1, h2, h3, h4, h5, h6, p, span, a, label, button {
+  background: linear-gradient(to right, black, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+/* input.whiteText {
+  color: white !important;
+}
+
+input {
+  color: white;
+  caret-color: white; /* changes the color of the typing cursor */
+/* }
+
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}  */
+
+
+input {
+  background-color: white;
+  color: black;
+}
+
+.acknowledgement{
+  text-align: center;
+  margin-top: 2rem; /* adjust this value as needed */
+  margin-bottom: 0rem; /* adjust this value as needed */
+  font-size: 2rem;
+  background: linear-gradient(to right, black, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+
+fieldset {
+  border: none;
+}
+

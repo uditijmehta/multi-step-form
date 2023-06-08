@@ -1,0 +1,79 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  height: 100vh;
+  padding: 0; 
+  margin: 0; 
+} */
+
+.header {
+  display: flex;
+  justify-content: flex-start; /* Aligns items to the start (left) of the header */
+  align-items: center;
+  width: 100%;
+  margin: 0; /* Removes margin */
+  padding: 0; /* Removes padding */
+}
+
+.title {
+  font-size: 3em; /* Adjust this value to increase or decrease the size of the title */
+  margin-left: 20px; /* Adjust as needed */
+  background: linear-gradient(to right, black, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+}
+
+.logo {
+  margin: 0; 
+  padding: 0;
+  height: 100px; /* Adjust this value to increase or decrease the size of the logo */
+  width: 100px; /* It's recommended to keep width and height the same for a logo to avoid distortion */
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem; 
+} */
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the start (top) of the container */
+  align-items: center; /* Aligns items to the center (horizontal) of the container */
+  height: 100vh;
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center; /* Centers items horizontally */
+  width: 100%; /* Ensures the form takes up full width of its container */
+  justify-content: center; /* Centers items vertically */
+  margin-top: 2rem; /* Add some space between the header and the form */
+}
+
+/* UserInfo.module.css */
+
+.sec_title {
+  text-align: center;
+  margin-top: 4rem; /* adjust this value as needed */
+  margin-bottom: -1rem; /* adjust this value as needed */
+  font-size: 2rem;
+  background: linear-gradient(to right, black, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .whiteText {
+  color: white !important;
+} */

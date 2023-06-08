@@ -1,38 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Multi-Step Form Project
+
+This is a multi-step form application built with React and Next.js. It collects user information in a sequential manner, offering an organized and efficient user experience.
+
+## Features
+
+- Multi-step form design
+- User input validation
+- Review and confirmation step before submission
+- Responsive design suitable for various screen sizes
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Node.js
+- npm
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+   ```sh
+   git clone https://github.com/uditijmehta/multi-step-form.git
+   cd multi-step-form
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Install NPM packages:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```sh
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The application should now be running at `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- React.js: A JavaScript library for building user interfaces
+- Next.js: A React framework for production-grade applications, pre-rendering, and server-side rendering.
+- [Optional: Other tools or libraries used in the project]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This application is deployable on a range of hosting platforms like Vercel, Netlify, or Firebase. Here's how you can deploy it using Vercel:
+
+1. Install the Vercel CLI:
+
+   ```sh
+   npm i -g vercel
+   ```
+
+2. Deploy the project:
+
+   ```sh
+   vercel
+   ```
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and create your feature branch. Pull requests are warmly welcome.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Live Site
+
+The application is deployed and can be accessed at: 
+
+[Your Vercel App Link](#)
